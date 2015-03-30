@@ -1,4 +1,4 @@
-﻿var services = angular.module('services', ['ngResource']);
+﻿var services = angular.module('services', []);
 services.factory('Workdays', function () {
     Date.prototype.addDays = function (days) {
         var dat = new Date(this.valueOf());
